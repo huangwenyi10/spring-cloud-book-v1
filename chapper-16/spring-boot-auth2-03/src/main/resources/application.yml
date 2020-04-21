@@ -1,0 +1,22 @@
+server:
+  port: 18088
+
+spring:
+  application:
+    name: hx-auth-03
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+
+management:
+  endpoints:
+    web:
+    exposure:
+      include: '*'

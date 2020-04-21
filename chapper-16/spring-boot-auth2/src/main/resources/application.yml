@@ -1,0 +1,17 @@
+server:
+  port: 18083
+
+spring:
+  application:
+    name: ay-auth
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

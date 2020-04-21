@@ -1,0 +1,17 @@
+server:
+  port: 18082
+
+spring:
+  application:
+    name: service-01
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
