@@ -1,0 +1,22 @@
+server:
+  port: 18089
+
+spring:
+  application:
+    name: openfeign
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+
+management:
+  endpoints:
+    web:
+    exposure:
+      include: '*'

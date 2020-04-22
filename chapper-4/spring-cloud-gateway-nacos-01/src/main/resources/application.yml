@@ -19,6 +19,14 @@ spring:
             - Path=/example/**
           filters:
             - AddRequestHeader=X-Request-red, blue
+        - id: openfeign
+            # 设置路由uri，可以是跳转的url地址，也可以是"lb://serviceId"
+          uri: lb://openfeign
+            # 路由断言，可配置多个，请求地址包含example，会跳转到example服务
+          predicates:
+            - Path=/openfeign/**
+          filters:
+            - AddRequestHeader=X-Request-red, blue
 
 management:
   endpoints:
