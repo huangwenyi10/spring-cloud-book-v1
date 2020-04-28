@@ -1,0 +1,20 @@
+server:
+  port: 18095
+
+spring:
+  application:
+    name: spring-cloud-bus-02
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+      config:
+        server-addr: localhost:8847
+
+
+management:
+  endpoints:
+    web:
+    exposure:
+      include: '*'
