@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: zuul-service
+
+server:
+  port: 9080
+
+zuul:
+  routes:
+    blog:
+      path: /baidu/**
+      ###url: https://www.baidu.com
+      serviceId: 

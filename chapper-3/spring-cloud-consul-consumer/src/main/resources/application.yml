@@ -1,0 +1,12 @@
+server:
+  ### 端口为18082
+  port: 18082
+spring:
+  application:
+    name: consul-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+instance-id: ${spring.application.name}:${server.port}

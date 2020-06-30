@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true #false禁用Consul配置，默认true
+        # 表示consul上面文件的格式 有四种 YAML PROPERTIES KEY-VALUE FILES
+        format: YAML
+        #表示consul上面的KEY值(或者说文件的名字) 默认是data
+        defaultContext: consul_config  # 可以理解为 mysql_config 的上级目录
+        data-key: data
+        # 可以理解为配置文件所在的最外层目录
+        prefix: config

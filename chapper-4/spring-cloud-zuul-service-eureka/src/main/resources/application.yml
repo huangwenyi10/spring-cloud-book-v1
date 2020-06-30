@@ -1,0 +1,24 @@
+# 指定运行端口
+server:
+  port: 18101
+
+# 指定服务名称
+spring:
+  application:
+    name: zuul-service
+
+eureka:
+  client:
+    # 注册到Eureka的注册中心
+    register-with-eureka: true
+    # 获取注册实例列表
+    fetch-registry: true
+    service-url:
+      # 配置注册中心地址
+      defaultZone: http://localhost:8001/eureka
+zuul:
+  routes:
+    test:
+      path: /**
+      serviceId: service-provider
+
