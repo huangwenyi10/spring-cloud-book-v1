@@ -9,5 +9,9 @@ zuul:
   routes:
     blog:
       path: /baidu/**
-      ###url: https://www.baidu.com
-      serviceId: 
+      url: https://www.baidu.com
+
+
+
+
+

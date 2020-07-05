@@ -18,7 +18,14 @@ eureka:
       defaultZone: http://localhost:8001/eureka
 zuul:
   routes:
-    test:
-      path: /**
+    service-provider:
+      path: /provider/hello
       serviceId: service-provider
+    service-consumer:
+      path: /consumer/invoke
+      serviceId: service-consumer
 
+### ribbon后续的章节会讲
+ribbon:
+  eureka:
+    enabled: true
