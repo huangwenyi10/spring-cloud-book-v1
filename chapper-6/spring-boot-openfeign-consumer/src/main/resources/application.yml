@@ -1,0 +1,23 @@
+### 应用端口
+server:
+  port: 8071
+#### 应用名称
+spring:
+  application:
+    name: service-consumer
+  cloud:
+    nacos:
+      discovery:
+        ### nacos地址
+        server-addr: localhost:8848
+
+#logging:
+#  level:
+#    com.example.ayuserapi.UserFeignApi: DEBUG
+#
+#feign:
+#  client:
+#    config:
+#      service-provider:
+#        loggerLevel: full
+

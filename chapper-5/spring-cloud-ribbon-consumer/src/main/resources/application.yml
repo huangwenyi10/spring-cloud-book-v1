@@ -1,0 +1,5 @@
+### 负载均衡配置
+my-client:
+   ribbon:
+      listOfServers: localhost:8080,localhost:8081
+      NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

@@ -1,0 +1,14 @@
+server:
+  port: 18089
+
+spring:
+  application:
+    name: openfeign
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+logging:
+  level:
+    com.example.demo.feign.*: DEBUG

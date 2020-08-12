@@ -4,9 +4,7 @@ import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
 
 /**
- * @author Trazen
- * @desc
- * @date
+ * @author ay
  */
 public interface MqSink {
 

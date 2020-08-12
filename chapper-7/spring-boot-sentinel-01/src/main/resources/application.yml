@@ -1,0 +1,21 @@
+### 服务端口
+server:
+  port: 18090
+### 应用名称
+spring:
+  application:
+    name: sentinel
+  cloud:
+    sentinel:
+      transport:
+        ### 指定应用与Sentinel控制台交互的端口
+        port: 8719
+        ### sentinel后台地址
+        dashboard: localhost:8089
+      eager: true
+###
+management:
+  endpoints:
+    web:
+    exposure:
+      include: '*'

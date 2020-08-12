@@ -1,0 +1,5 @@
+/chapper-5/spring-cloud-ribbon-custom/target/
+/chapper-6/spring-boot-openfeign-consumer/.mvn/
+/.idea/**
+/.idea/sonarlint/
+/chapper-5/spring-cloud-nacos-ribbon-provider/.mvn/
