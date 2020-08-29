@@ -6,6 +6,7 @@ import java.util.Date;
 
 /**
  * 消息实体
+ *
  * @author ay
  * @since 2020-08-09
  */

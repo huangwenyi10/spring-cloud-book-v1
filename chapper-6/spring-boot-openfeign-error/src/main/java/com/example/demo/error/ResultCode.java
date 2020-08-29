@@ -4,6 +4,7 @@ import lombok.Data;
 
 /**
  * 描述：封装错误码
+ *
  * @author:ay
  * @since :2020-08-04
  */

@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 入口类
+ *
  * @author ay
  * @since 2020-05-17
  */

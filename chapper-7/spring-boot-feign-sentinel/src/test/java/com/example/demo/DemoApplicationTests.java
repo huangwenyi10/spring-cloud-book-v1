@@ -9,11 +9,11 @@ import javax.annotation.Resource;
 @SpringBootTest
 class DemoApplicationTests {
 
-	@Resource
-	private EchoService echoService;
+    @Resource
+    private EchoService echoService;
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

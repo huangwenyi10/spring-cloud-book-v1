@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 描述：UserFeignApiClient
+ *
  * @author ay
  * @since 2020-07-24
  */

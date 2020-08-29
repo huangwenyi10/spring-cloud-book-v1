@@ -17,14 +17,14 @@ public class InvokeController {
     private LoadBalancerClient loadBalancer;
 
     @RequestMapping("/consumer/invoke")
-    public String invoke(){
+    public String invoke() {
         ServiceInstance serviceInstance =
                 loadBalancer.choose("service-provider");
         System.out.println("服务地址：" + serviceInstance.getUri());
         System.out.println("服务名称：" + serviceInstance.getServiceId());
         //使用 RestTemplate 进行远程调用
-        String callServiceResult = restTemplate.getForObject("http://"+ serviceInstance.getServiceId()
-                        .toString() + "/provider/hello", String.class);
+        String callServiceResult = restTemplate.getForObject("http://" + serviceInstance.getServiceId()
+                .toString() + "/provider/hello", String.class);
         System.out.println(callServiceResult);
         return callServiceResult;
     }

@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * 描述：入口类
+ *
  * @author ay
  * @since 2020-07-24
  */
@@ -16,7 +17,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(defaultConfiguration = GlobalFeignConfiguration.class)
 public class AyUserServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AyUserServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AyUserServiceApplication.class, args);
+    }
 }

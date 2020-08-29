@@ -1,4 +1,5 @@
 package com.example.demo.config;
+
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;
 import com.netflix.loadbalancer.ILoadBalancer;
@@ -8,13 +9,16 @@ import java.util.List;
 
 /**
  * 负载规则：始终返回第一个服务
+ *
  * @author ay
  * @since 2020-07-14
  */
 public class MyRule extends AbstractLoadBalancerRule {
 
     private ILoadBalancer lb;
-    public MyRule() {}
+
+    public MyRule() {
+    }
 
     @Override
     public Server choose(Object o) {

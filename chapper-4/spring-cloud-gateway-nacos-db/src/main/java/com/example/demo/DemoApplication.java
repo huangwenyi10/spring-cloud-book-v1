@@ -8,6 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * 描述：
  * 【1】http://www.spring4all.com/article/1459(网关 Spring-Cloud-Gateway 源码解析)
  * 【2】
+ *
  * @author ay
  * @since 2020-04-28
  */
@@ -15,8 +16,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class DemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
 
 }

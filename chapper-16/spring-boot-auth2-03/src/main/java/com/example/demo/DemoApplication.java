@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 参考：http://blog.didispace.com/spring-security-oauth2-xjf-1/
+ *
  * @author ay
  * @since 2020-04-19
  */

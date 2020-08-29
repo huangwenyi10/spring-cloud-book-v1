@@ -22,6 +22,7 @@ public class DiscoveryController {
 
     /**
      * 第一个例子：测试请求通过网关，能否代理到service-01 的 /example/discovery/get方法上
+     *
      * @param serviceName
      * @param request
      * @return
@@ -35,6 +36,7 @@ public class DiscoveryController {
 
     /**
      * 第二个例子：测试网关添加请求头
+     *
      * @param request
      * @return
      * @throws NacosException

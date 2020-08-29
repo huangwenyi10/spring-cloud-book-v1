@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Java Bean配置
+ *
  * @author ay
  * @since 2020-06-27
  */

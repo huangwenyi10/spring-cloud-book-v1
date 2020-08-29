@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
 //参考 https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-discovery
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -38,7 +39,7 @@ public class DemoApplication {
 //    }
 
     @Bean
-    public GlobalFilter getCustomGlobalFilter(){
+    public GlobalFilter getCustomGlobalFilter() {
         return new CustomGlobalFilter();
     }
 }

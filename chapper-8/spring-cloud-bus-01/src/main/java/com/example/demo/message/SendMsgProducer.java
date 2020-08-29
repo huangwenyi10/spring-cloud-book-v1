@@ -13,15 +13,15 @@ import javax.annotation.Resource;
 @EnableBinding(MQSource.class)
 public class SendMsgProducer {
 
-  @Resource
-  private MQSource MQSource;
+    @Resource
+    private MQSource MQSource;
 
-  public void sendMessage(String msg) {
-    try {
-      MQSource.output().send(MessageBuilder.withPayload(msg).build());
-    } catch (Exception e) {
-      e.printStackTrace();
+    public void sendMessage(String msg) {
+        try {
+            MQSource.output().send(MessageBuilder.withPayload(msg).build());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-  }
 
 }

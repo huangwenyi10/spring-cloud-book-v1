@@ -8,6 +8,7 @@ import javax.annotation.Resource;
 
 /**
  * 描述：
+ *
  * @author ay
  * @since 2020-08-09
  */
@@ -19,7 +20,7 @@ public class TestController {
     private KafkaSender kafkaSender;
 
     @RequestMapping("/send")
-    public void test(){
+    public void test() {
         kafkaSender.send(1L);
     }
 }

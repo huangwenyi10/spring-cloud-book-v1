@@ -13,7 +13,7 @@ public class TestController {
     private UserFeignApi userFeignApi;
 
     @RequestMapping("/test")
-    public String test(){
+    public String test() {
         String userName = userFeignApi.getUserName();
         return userName;
     }

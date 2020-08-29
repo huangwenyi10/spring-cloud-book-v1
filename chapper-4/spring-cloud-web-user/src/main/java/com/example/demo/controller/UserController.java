@@ -12,12 +12,12 @@ import javax.websocket.server.PathParam;
 @RestController
 public class UserController {
     @GetMapping("/user/{id}")
-    public String getUser(@PathParam("id") Integer id){
+    public String getUser(@PathParam("id") Integer id) {
         return "ay:" + id;
     }
 
     @GetMapping("/user2/getUser")
-    public String getUser2(){
+    public String getUser2() {
         return "ay";
     }
 }

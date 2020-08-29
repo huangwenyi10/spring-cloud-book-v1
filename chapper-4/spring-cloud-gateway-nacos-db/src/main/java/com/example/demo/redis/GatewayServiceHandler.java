@@ -58,7 +58,7 @@ public class GatewayServiceHandler implements ApplicationEventPublisherAware, Co
     }
 
 
-    private RouteDefinition handleData(GatewayRoute gatewayRoute){
+    private RouteDefinition handleData(GatewayRoute gatewayRoute) {
         RouteDefinition definition = new RouteDefinition();
         Map<String, String> predicateParams = new HashMap<>(8);
         PredicateDefinition predicate = new PredicateDefinition();
@@ -67,17 +67,17 @@ public class GatewayServiceHandler implements ApplicationEventPublisherAware, Co
         Map<String, String> filterParams = new HashMap<>(8);
 
         URI uri = null;
-        if(gatewayRoute.getUri().startsWith("http")){
+        if (gatewayRoute.getUri().startsWith("http")) {
             //http地址
             uri = UriComponentsBuilder.fromHttpUrl(gatewayRoute.getUri()).build().toUri();
-        }else{
+        } else {
             //注册中心
-            uri = UriComponentsBuilder.fromUriString("lb://"+gatewayRoute.getUri()).build().toUri();
+            uri = UriComponentsBuilder.fromUriString("lb://" + gatewayRoute.getUri()).build().toUri();
         }
         definition.setId(gatewayRoute.getServiceId());
         // 名称是固定的，spring gateway会根据名称找对应的PredicateFactory
         predicate.setName("Path");
-        predicateParams.put("pattern", gatewayRoute.getPredicates() == null? "": gatewayRoute.getPredicates().toString());
+        predicateParams.put("pattern", gatewayRoute.getPredicates() == null ? "" : gatewayRoute.getPredicates().toString());
         predicate.setArgs(predicateParams);
 
         // 名称是固定的, 路径去前缀
@@ -94,23 +94,23 @@ public class GatewayServiceHandler implements ApplicationEventPublisherAware, Co
     }
 
 
-    public List<GatewayRoute> getGatewayRouteList(List<Map<String, Object>> list){
+    public List<GatewayRoute> getGatewayRouteList(List<Map<String, Object>> list) {
 
         List<GatewayRoute> gatewayRouteList = new ArrayList<>();
-        for(Map<String, Object> map: list){
+        for (Map<String, Object> map : list) {
             GatewayRoute gatewayRoute = new GatewayRoute();
-            gatewayRoute.setId(Long.valueOf(map.get("id") == null?"" : map.get("id").toString()));
-            gatewayRoute.setServiceId(map.get("service_id") == null?"" : map.get("service_id").toString());
-            gatewayRoute.setUri(map.get("url") == null? "": map.get("url").toString());
-            gatewayRoute.setPredicates(map.get("predicates") == null? "": map.get("predicates").toString());
-            gatewayRoute.setOrder(map.get("order") == null? "": map.get("order").toString());
-            gatewayRoute.setFilters(map.get("filters") == null? "" : map.get("filters").toString());
-            gatewayRoute.setCreatorId(map.get("creator_id") == null? "" : map.get("creator_id").toString());
-            gatewayRoute.setUpdateId(map.get("update_id") == null? "": map.get("update_id").toString());
+            gatewayRoute.setId(Long.valueOf(map.get("id") == null ? "" : map.get("id").toString()));
+            gatewayRoute.setServiceId(map.get("service_id") == null ? "" : map.get("service_id").toString());
+            gatewayRoute.setUri(map.get("url") == null ? "" : map.get("url").toString());
+            gatewayRoute.setPredicates(map.get("predicates") == null ? "" : map.get("predicates").toString());
+            gatewayRoute.setOrder(map.get("order") == null ? "" : map.get("order").toString());
+            gatewayRoute.setFilters(map.get("filters") == null ? "" : map.get("filters").toString());
+            gatewayRoute.setCreatorId(map.get("creator_id") == null ? "" : map.get("creator_id").toString());
+            gatewayRoute.setUpdateId(map.get("update_id") == null ? "" : map.get("update_id").toString());
             gatewayRoute.setCreateDate(new Date());
             gatewayRoute.setUpdateDate(new Date());
-            gatewayRoute.setRemarks(map.get("remarks") == null? "" : map.get("remarks").toString());
-            gatewayRoute.setDelFlag(map.get("del_flag") == null? "" : map.get("del_flag").toString());
+            gatewayRoute.setRemarks(map.get("remarks") == null ? "" : map.get("remarks").toString());
+            gatewayRoute.setDelFlag(map.get("del_flag") == null ? "" : map.get("del_flag").toString());
             gatewayRouteList.add(gatewayRoute);
         }
         return gatewayRouteList;

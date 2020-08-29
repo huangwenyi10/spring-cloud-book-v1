@@ -8,6 +8,7 @@ import javax.annotation.Resource;
 
 /**
  * 描述：TestController层
+ *
  * @author ay
  * @since 2020-07-24
  */
@@ -18,7 +19,7 @@ public class TestController {
     private UserFeignApi userFeignApi;
 
     @RequestMapping("/test")
-    public String test(){
+    public String test() {
         String userName = userFeignApi.getUserName();
         return userName;
     }

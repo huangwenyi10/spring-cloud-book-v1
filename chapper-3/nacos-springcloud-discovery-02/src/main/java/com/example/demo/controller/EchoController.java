@@ -14,7 +14,7 @@ public class EchoController {
     private RestTemplate restTemplate;
 
     @RequestMapping("/hello")
-    public String echo(){
+    public String echo() {
         return restTemplate.getForObject("http://service-provider/test/hello", String.class);
     }
 }

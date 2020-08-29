@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 自定义Feign异常处理
+ *
  * @author:ay
  * @since :2020-08-04
  */

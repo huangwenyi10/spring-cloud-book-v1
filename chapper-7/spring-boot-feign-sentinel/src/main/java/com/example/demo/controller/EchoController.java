@@ -13,7 +13,7 @@ public class EchoController {
 
 
     @RequestMapping("/hello")
-    public String say(){
+    public String say() {
         return "hello ay";
     }
 

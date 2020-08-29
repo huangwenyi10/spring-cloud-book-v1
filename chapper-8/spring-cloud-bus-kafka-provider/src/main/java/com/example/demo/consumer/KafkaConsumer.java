@@ -8,6 +8,7 @@ import java.util.Optional;
 
 /**
  * 描述：
+ *
  * @author ay
  * @since 2020-08-09
  */
@@ -15,9 +16,9 @@ import java.util.Optional;
 public class KafkaConsumer {
 
     @KafkaListener(topics = {"test"})
-    public void consumer(ConsumerRecord<?,?> consumerRecord){
+    public void consumer(ConsumerRecord<?, ?> consumerRecord) {
         Optional<?> kafkaMessage = Optional.ofNullable(consumerRecord.value());
-        if(kafkaMessage.isPresent()){
+        if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
             System.out.println(message);
         }

@@ -19,16 +19,19 @@ public class TestController {
     private LoadBalancerClient loadBalancer;
     @Resource
     private DiscoveryClient discoveryClient;
+
     //获取所有服务
     @RequestMapping("/services")
     public Object services() {
         return discoveryClient.getInstances("consul-producer");
     }
-     //从所有服务中选择一个服务（轮询）
+
+    //从所有服务中选择一个服务（轮询）
     @RequestMapping("/discover")
     public Object discover() {
         return loadBalancer.choose("consul-producer").getUri().toString();
     }
+
     //服务调用
     @RequestMapping("/call")
     public String call() {

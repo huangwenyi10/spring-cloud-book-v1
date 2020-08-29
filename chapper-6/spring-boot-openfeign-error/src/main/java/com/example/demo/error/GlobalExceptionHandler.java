@@ -1,4 +1,5 @@
 package com.example.demo.error;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 描述：全局异常处理
+ *
  * @author:ay
  * @since :2020-08-04
  */
@@ -18,6 +20,7 @@ public class GlobalExceptionHandler {
 
     /**
      * 系统异常处理器
+     *
      * @param throwable
      * @param request
      * @return

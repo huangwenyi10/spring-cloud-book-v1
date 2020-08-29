@@ -1,15 +1,16 @@
+### 服务端口
 server:
   port: 18083
-
+### 应用名称
 spring:
   application:
     name: ay-auth
-
+### nacos注册中心地址
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8847
-
+        server-addr: localhost:8848
+### 暴露端点
 management:
   endpoints:
     web:

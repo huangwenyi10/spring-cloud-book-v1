@@ -8,8 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import javax.annotation.Resource;
 
 /**
- *
- *
  * @author ay
  * @since 2020-04-21
  */
@@ -18,9 +16,9 @@ import javax.annotation.Resource;
 public class DemoApplication {
 
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		SpringApplication.run(DemoApplication.class, args);
-	}
+        SpringApplication.run(DemoApplication.class, args);
+    }
 
 }

@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Ribbon配置类，不能被@ComponentScan扫描到
+ *
  * @author ay
  * @since 2020-07-14
  */
@@ -18,13 +19,13 @@ public class RibbonConfiguration {
 //        return new RandomRule();
 //    }
 
-//    @Bean
+    //    @Bean
 //    public IRule ribbonRule(){
 //        //ribbon默认是使用的是zoneAvoidanceRule规则，这里修改为随机方式
 //        return new NacosWeightedRule();
 //    }
     @Bean
-    public IRule ribbonRule(){
+    public IRule ribbonRule() {
         //ribbon默认是使用的是zoneAvoidanceRule规则，这里修改为随机方式
         return new MyRule();
     }

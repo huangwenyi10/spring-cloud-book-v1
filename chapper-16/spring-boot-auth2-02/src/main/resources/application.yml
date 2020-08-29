@@ -8,11 +8,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8847
+        server-addr: localhost:8848
 
 management:
   endpoints:
-      web:
-      exposure:
-        include: '*'
+    web:
+    exposure:
+      include: '*'
 

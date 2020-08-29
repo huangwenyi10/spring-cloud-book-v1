@@ -7,9 +7,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 
 /**
  * 描述：资源服务配置（Resource Server）
+ *
  * @author ay
  * @since 2020-04-21
-  */
+ */
 @Configuration
 @EnableResourceServer
 public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
@@ -17,10 +18,10 @@ public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http
-            .authorizeRequests()
-            //保护所有/api/**
-            .antMatchers("/api/**").authenticated()
-            .antMatchers("/").permitAll();
+                .authorizeRequests()
+                //保护所有/api/**
+                .antMatchers("/api/**").authenticated()
+                .antMatchers("/").permitAll();
     }
 
 }

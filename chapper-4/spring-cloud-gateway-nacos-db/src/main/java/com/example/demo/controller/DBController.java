@@ -20,7 +20,7 @@ public class DBController {
     private JdbcTemplate jdbcTemplate;
 
     @RequestMapping("/get")
-    public void get(){
+    public void get() {
         String sql = "select * from gateway_route";
         jdbcTemplate.queryForList(sql);
     }

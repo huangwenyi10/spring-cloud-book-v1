@@ -19,8 +19,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .withUser("user_1").password("123456").authorities("USER")
                 .and()
                 .withUser("user_2").password("123456").authorities("USER")
-        .and()
-        .passwordEncoder(new CustomPasswordEncoder());
+                .and()
+                .passwordEncoder(new CustomPasswordEncoder());
     }
 
     @Override

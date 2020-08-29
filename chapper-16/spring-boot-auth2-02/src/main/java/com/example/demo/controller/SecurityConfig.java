@@ -7,34 +7,34 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
- 
+
 @Configuration
 @Order(1)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-  
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-            .antMatcher("/**")
+                .antMatcher("/**")
                 .authorizeRequests()
                 .antMatchers("/oauth/authorize**", "/login**", "/error**")
                 .permitAll()
-            .and()
+                .and()
                 .authorizeRequests()
                 .anyRequest().authenticated()
-            .and()
+                .and()
                 .formLogin().permitAll();
     }
-  
+
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
-            .inMemoryAuthentication()
-            .withUser("root").password(passwordEncoder().encode("123456")).roles("USER");
+                .inMemoryAuthentication()
+                .withUser("root").password(passwordEncoder().encode("123456")).roles("USER");
     }
-      
+
     @Bean
-    public BCryptPasswordEncoder passwordEncoder(){ 
-        return new BCryptPasswordEncoder(); 
+    public BCryptPasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class FallBackConfiguration {
 
     @Bean
-    public FeignClientFallback fooClientFallback(){
+    public FeignClientFallback fooClientFallback() {
         return new FeignClientFallback();
     }
 

@@ -6,17 +6,18 @@ import org.springframework.messaging.MessageChannel;
 /**
  * @author ay
  * @desc
- * @since  2020-04-26
+ * @since 2020-04-26
  */
 public interface MQSource {
 
-  String OUTPUT = "accessLog";
+    String OUTPUT = "accessLog";
 
-  /**
-   * 指定TOPIC
-   * @return
-   */
-  @Output(MQSource.OUTPUT)
-  MessageChannel output();
+    /**
+     * 指定TOPIC
+     *
+     * @return
+     */
+    @Output(MQSource.OUTPUT)
+    MessageChannel output();
 
 }

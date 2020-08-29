@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 /**
  * 描述：用户信息
+ *
  * @author ay
  * @since 2020-04-21
  */
@@ -24,6 +25,7 @@ public class UserProfile {
     public void setEmail(String email) {
         this.email = email;
     }
+
     @Override
     public String toString() {
         return "UserProfile [name=" + name + ", email=" + email + "]";

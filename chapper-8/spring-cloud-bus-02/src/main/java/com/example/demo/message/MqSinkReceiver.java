@@ -13,7 +13,7 @@ public class MqSinkReceiver {
 
     @StreamListener(MqSink.INPUT)
     public void messageListen(String json) {
-      //处理请求的类，对消息进行处理
-      System.out.println(json);
+        //处理请求的类，对消息进行处理
+        System.out.println(json);
     }
 }

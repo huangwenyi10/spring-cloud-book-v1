@@ -11,16 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 public class DemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
 
-	@RestController
-	public class EchoController {
-		@GetMapping(value = "/echo/{string}")
-		public String echo(@PathVariable String string) {
-			return "Hello Nacos Discovery " + string;
-		}
-	}
+    @RestController
+    public class EchoController {
+        @GetMapping(value = "/echo/{string}")
+        public String echo(@PathVariable String string) {
+            return "Hello Nacos Discovery " + string;
+        }
+    }
 
 }

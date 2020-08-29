@@ -12,8 +12,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableCircuitBreaker
 public class AyUserServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AyUserServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AyUserServiceApplication.class, args);
+    }
 
 }

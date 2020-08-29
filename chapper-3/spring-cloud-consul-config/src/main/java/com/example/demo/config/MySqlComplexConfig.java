@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "mysql")
 public class MySqlComplexConfig {
 
-    public static class UserInfo{
+    public static class UserInfo {
 
         private String username;
 

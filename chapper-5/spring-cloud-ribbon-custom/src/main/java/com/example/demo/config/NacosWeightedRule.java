@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * 规则：权重负载均衡
+ *
  * @author ay
  * @since 2020-07-14
  */
@@ -23,6 +24,7 @@ public class NacosWeightedRule extends AbstractLoadBalancerRule {
 
     /**
      * 读取配置文件并初始化（一般不重写）
+     *
      * @param iClientConfig
      */
     @Override
@@ -32,6 +34,7 @@ public class NacosWeightedRule extends AbstractLoadBalancerRule {
 
     /**
      * 权重负载均衡返回的微服务实例
+     *
      * @param o
      * @return
      */

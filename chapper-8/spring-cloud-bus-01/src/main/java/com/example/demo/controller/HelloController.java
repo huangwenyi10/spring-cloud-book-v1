@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 
 /**
  * 参考：https://www.jianshu.com/p/fb7d11c7f798
+ *
  * @author ay
  * @since 2020-04-26
  */
@@ -20,7 +21,7 @@ public class HelloController {
     private SendMsgProducer sendMsgProducer;
 
     @RequestMapping("/send")
-    public void send(){
+    public void send() {
         sendMsgProducer.sendMessage("hello ay!");
     }
 }

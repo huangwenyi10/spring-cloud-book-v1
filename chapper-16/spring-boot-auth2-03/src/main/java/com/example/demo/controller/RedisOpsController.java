@@ -9,21 +9,22 @@ import javax.annotation.Resource;
 
 /**
  * 描述：
+ *
  * @author ay
  * @since 2020/04/20
  */
 @RestController
 @RequestMapping("/redis")
-public class RedisOpsController{
+public class RedisOpsController {
 
-  @Resource
-  RedisTemplate redisTemplate;
+    @Resource
+    RedisTemplate redisTemplate;
 
-  @GetMapping("/get/{key}")
-  public void get(@PathVariable("key") String key){
-    //redisTemplate.setKeySerializer(new StringRedisSerializer());
-    //redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
-    redisTemplate.opsForValue().get(key);
-  }
+    @GetMapping("/get/{key}")
+    public void get(@PathVariable("key") String key) {
+        //redisTemplate.setKeySerializer(new StringRedisSerializer());
+        //redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
+        redisTemplate.opsForValue().get(key);
+    }
 
 }

@@ -46,13 +46,13 @@ public class NamingExample {
         naming.subscribe("service-consumer", new EventListener() {
             @Override
             public void onEvent(Event event) {
-                System.out.println(((NamingEvent)event).getServiceName());
-                System.out.println(((NamingEvent)event).getInstances());
+                System.out.println(((NamingEvent) event).getServiceName());
+                System.out.println(((NamingEvent) event).getInstances());
             }
         });
-        try{
+        try {
             System.in.read();
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

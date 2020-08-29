@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * 描述：TestFeignApi
+ *
  * @author ay
  * @since 2020-08-03
  */

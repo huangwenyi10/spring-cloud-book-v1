@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- *
  * @author ay
  * @since 2020-04-26
  */
@@ -21,7 +20,7 @@ public class ApiEndpoint extends AbstractBusEndpoint {
     }
 
     @PostMapping("/refresh")
-    public void busRefreshWithDestination(@RequestParam(required = false)  String destination) {
+    public void busRefreshWithDestination(@RequestParam(required = false) String destination) {
         this.publish(new MyRemoteApplicationEvent(this, this.getInstanceId(), destination));
     }
 }

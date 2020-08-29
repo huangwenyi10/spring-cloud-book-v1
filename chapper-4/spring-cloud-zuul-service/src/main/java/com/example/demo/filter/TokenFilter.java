@@ -21,6 +21,7 @@ public class TokenFilter extends ZuulFilter {
         //判断过滤器是否生效，true代表生效
         return true;
     }
+
     //具体的过滤执行逻辑
     public Object run() throws ZuulException {
         //获取上下文

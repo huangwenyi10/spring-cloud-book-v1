@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-08-03
  */
 @RestController
-public class TestFeignClient implements TestFeignApi{
+public class TestFeignClient implements TestFeignApi {
 
 
     @RequestMapping("/test")

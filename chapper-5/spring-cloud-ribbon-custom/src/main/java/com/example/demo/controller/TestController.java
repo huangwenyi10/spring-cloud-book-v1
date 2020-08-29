@@ -15,11 +15,11 @@ public class TestController {
     private LoadBalancerClient loadBalancerClient;
 
     @RequestMapping("/getUserName")
-    public String getUserName(){
-        for(int i=0; i< 20; i++){
+    public String getUserName() {
+        for (int i = 0; i < 20; i++) {
             ServiceInstance serviceInstance = loadBalancerClient.choose("service-provider");
             //打印当前选择的是哪个节点
-            System.out.println(serviceInstance.getServiceId()+serviceInstance.getHost()+ "：" +serviceInstance.getPort());
+            System.out.println(serviceInstance.getServiceId() + serviceInstance.getHost() + "：" + serviceInstance.getPort());
         }
         return "hello, ay";
     }

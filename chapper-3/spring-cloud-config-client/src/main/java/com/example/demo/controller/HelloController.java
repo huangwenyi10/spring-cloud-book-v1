@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 描述：控制层
+ *
  * @author ay
  * @date 2020-6-27
  */
@@ -16,7 +17,7 @@ public class HelloController {
     private String notify;
 
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         return notify;
     }
 }

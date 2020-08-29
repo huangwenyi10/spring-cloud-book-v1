@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 描述：Feign拦截器配置类
+ *
  * @author ay
  * @since 2020-08-04
  */
