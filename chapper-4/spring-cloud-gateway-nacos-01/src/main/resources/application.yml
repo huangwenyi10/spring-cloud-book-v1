@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.38.188:8848
+        server-addr: http://nacos.ay.com:8847
     gateway:
       routes:
         # 路由id，可以不写，默认是uuid唯一值
