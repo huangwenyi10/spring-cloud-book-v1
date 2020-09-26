@@ -1,4 +1,4 @@
-package com.macro.cloud.dao;
+package com.ay.cloud.dao;
 
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

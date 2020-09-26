@@ -1,8 +1,8 @@
-package com.macro.cloud.controller;
+package com.ay.cloud.controller;
 
 
-import com.macro.cloud.domain.CommonResult;
-import com.macro.cloud.service.StockService;
+import com.ay.cloud.domain.CommonResult;
+import com.ay.cloud.service.StockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

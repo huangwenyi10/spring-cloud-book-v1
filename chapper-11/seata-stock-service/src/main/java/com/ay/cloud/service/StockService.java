@@ -1,4 +1,4 @@
-package com.macro.cloud.service;
+package com.ay.cloud.service;
 
 
 public interface StockService {

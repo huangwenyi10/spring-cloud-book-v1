@@ -1,4 +1,4 @@
-package com.macro.cloud.domain;
+package com.ay.cloud.domain;
 
 import lombok.Data;
 

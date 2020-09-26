@@ -1,11 +1,13 @@
-package com.macro.cloud.service.impl;
+package com.ay.cloud.service.impl;
 
-import com.macro.cloud.dao.StockDao;
-import com.macro.cloud.service.StockService;
+import com.ay.cloud.dao.StockDao;
+import com.ay.cloud.service.StockService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 
 @Service
@@ -13,7 +15,7 @@ public class StockServiceImpl implements StockService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(StockServiceImpl.class);
 
-    @Autowired
+    @Resource
     private StockDao storageDao;
 
     /**
