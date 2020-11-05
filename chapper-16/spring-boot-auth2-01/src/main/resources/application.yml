@@ -1,0 +1,18 @@
+server:
+  port: 18087
+
+spring:
+  application:
+    name: hx-auth-01
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+management:
+  endpoints:
+    web:
+    exposure:
+      include: '*'
+

@@ -1,0 +1,23 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: seata-stock-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: fsp_tx_group
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://localhost:3306/seata-stock
+    username: root
+logging:
+  level:
+    io:
+      seata: info
+mybatis:
+  mapperLocations: classpath:mapper/*.xml

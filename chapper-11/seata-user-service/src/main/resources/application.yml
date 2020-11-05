@@ -1,0 +1,26 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: seata-user-service
+  cloud:
+    alibaba:
+      seata:
+        #自定义事务组名称，需要与seata-server中的对应
+        tx-service-group: fsp_tx_group
+    #nacos注册中心地址
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  #数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://localhost:3306/seata-user
+    username: root
+logging:
+  level:
+    io:
+      seata: info
+mybatis:
+  mapperLocations: classpath:mapper/*.xml

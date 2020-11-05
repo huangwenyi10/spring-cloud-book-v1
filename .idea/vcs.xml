@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chapper-16/spring-security-oauth-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chapper-8/spring-cloud-bus-kafka" vcs="Git" />
   </component>
 </project>

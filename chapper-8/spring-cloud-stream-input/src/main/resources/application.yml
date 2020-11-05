@@ -1,0 +1,6 @@
+server:
+  port: 18095
+spring:
+  application:
+    name: spring-cloud-stream-input
+

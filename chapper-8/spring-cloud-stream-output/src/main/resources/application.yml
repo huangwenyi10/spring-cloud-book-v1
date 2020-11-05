@@ -1,0 +1,6 @@
+server:
+  port: 18091
+spring:
+  application:
+    name: spring-cloud-stream-output
+
