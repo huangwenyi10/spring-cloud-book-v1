@@ -1,8 +1,14 @@
 package com.example.ayuserservice.controller;
 
+import com.example.ayuserapi.Params;
 import com.example.ayuserapi.UserFeignApi;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import feign.Param;
+import org.springframework.cloud.openfeign.CollectionFormat;
+import org.springframework.cloud.openfeign.SpringQueryMap;
+import org.springframework.web.bind.annotation.*;
+
+import java.lang.reflect.Array;
+import java.util.List;
 
 /**
  * 描述：UserFeignApiClient
@@ -18,4 +24,19 @@ public class UserFeignApiClient implements UserFeignApi {
     public String getUserName() {
         return "hello, ay";
     }
+
+    @Override
+    @GetMapping(path = "/demo")
+    public String demoEndpoint(@SpringQueryMap Params params) {
+        System.out.println(params);
+        return "success";
+    }
+
+    @Override
+    @GetMapping(path = "/search/findByIdIn")
+    @CollectionFormat(feign.CollectionFormat.CSV)
+    public String getByIds(@RequestParam("ids") Long[] ids) {
+        return "success";
+    }
+
 }

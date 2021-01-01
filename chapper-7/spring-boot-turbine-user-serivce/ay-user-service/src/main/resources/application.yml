@@ -1,0 +1,30 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: user-service
+
+
+eureka:
+  client:
+    # 注册到Eureka的注册中心
+    register-with-eureka: true
+    # 获取注册实例列表
+    fetch-registry: true
+    service-url:
+      # 配置注册中心地址
+      defaultZone: http://localhost:8001/eureka
+
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: hystrix.stream
+      cors:
+        allowed-origins: true
+

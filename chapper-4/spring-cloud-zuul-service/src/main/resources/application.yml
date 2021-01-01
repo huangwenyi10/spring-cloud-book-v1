@@ -11,7 +11,16 @@ zuul:
       path: /baidu/**
       url: https://www.baidu.com
 
-
+management:
+  endpoint:
+    health:
+      show-details: always
+    routes:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 
 

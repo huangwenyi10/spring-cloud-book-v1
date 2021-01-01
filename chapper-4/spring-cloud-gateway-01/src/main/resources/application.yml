@@ -13,3 +13,12 @@ spring:
           ### 断言，路径相匹配的进行路由
           predicates:
             - Path=/user/{id}
+
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
