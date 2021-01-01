@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3152ee25-2003-498c-9f82-680d55d34d7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapper-10/sleuth-zipkin-demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/CommonsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/circuit/breaker/DemoControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/config/CustomCircuitBreakerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/features/FeaturesConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/lb/CustomLoadBalancerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/lb/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/java/com/example/demo/service/registry/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-12/spring-security-oauth-demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/src/main/java/com/example/ayuserservice/AyUserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/src/main/java/com/example/ayuserservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/ay-user-service/src/test/java/com/example/ayuserservice/AyUserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-hystrix-turbine-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-eureka-service/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/src/main/java/com/example/ayuserservice/AyUserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/src/main/java/com/example/ayuserservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/ay-user-service/src/test/java/com/example/ayuserservice/AyUserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapper-7/spring-boot-turbine-user-serivce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/spring-cloud-book.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/src/main/java/com/example/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-01/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-01/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/src/main/java/com/example/demo/controller/EchoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/src/main/java/com/example/demo/controller/EchoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/nacos-springcloud-discovery-02/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/nacos-springcloud-discovery-02/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/src/main/java/com/example/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-13/spring-cloud-sleuth-01/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-10/spring-cloud-sleuth-01/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/controller/OAuth2AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/controller/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/controller/OAuth2ResourceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/controller/OAuth2ResourceServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/controller/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/controller/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/java/com/example/demo/controller/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/java/com/example/demo/controller/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-01/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-11/spring-cloud-commons-demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/controller/OAuth2AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/controller/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/controller/OAuth2ResourceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/controller/OAuth2ResourceServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/controller/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/controller/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/java/com/example/demo/controller/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/java/com/example/demo/controller/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-02/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-01/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/controller/CustomPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/controller/CustomPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/controller/OAuth2ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/controller/OAuth2ServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/controller/RedisOpsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/controller/RedisOpsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/controller/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/controller/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/java/com/example/demo/controller/TestEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/java/com/example/demo/controller/TestEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2-03/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-02/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/java/com/example/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/java/com/example/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/java/com/example/demo/password/MyPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/java/com/example/demo/password/MyPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/java/com/example/demo/service/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/java/com/example/demo/service/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-auth2/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2-03/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/$PROJECT_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/qaplug_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/spring-boot-jwt-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/spring-boot-jwt-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-boot-jwt-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-jwt-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth-init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/java/com/ay/oauth2/client/OAuth2ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/java/com/ay/oauth2/client/OAuthClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/java/com/ay/oauth2/client/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/java/com/ay/oauth2/client/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/java/com/ay/oauth2/client/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-client/src/main/resources/templates/protectPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/java/com/ay/oauth2/server/CustomTokenEnhancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/java/com/ay/oauth2/server/OAuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/java/com/ay/oauth2/server/OAuthServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/java/com/ay/oauth2/server/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/resources/jwt.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-server/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/java/com/ay/oauth2/userservice/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/java/com/ay/oauth2/userservice/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/java/com/ay/oauth2/userservice/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/java/com/ay/oauth2/userservice/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/oauth2-user-service/src/main/resources/public.cert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapper-16/spring-security-oauth-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/src/main/java/com/example/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-01/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-12/spring-boot-auth2/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-13/spring-boot-docker/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/src/main/java/com/example/demo/controller/EchoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/src/main/java/com/example/demo/controller/EchoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-02/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-springcloud-discovery-02/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapper-4/nacos-springcloud-discovery-01/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mTCccvtdvGFBSinOJHktkacm8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3152ee25-2003-498c-9f82-680d55d34d7e" name="Default Changelist" comment="" />
+      <created>1609508275425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609508275425</updated>
+      <workItem from="1609508276594" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="411" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609508289940">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="540" y="411" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609508289940" />
+  </component>
+</project>
