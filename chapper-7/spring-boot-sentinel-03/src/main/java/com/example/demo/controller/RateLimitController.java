@@ -8,8 +8,6 @@ package com.example.demo.controller;
  */
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.alibaba.csp.sentinel.slots.block.degrade.DegradeException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +28,7 @@ public class RateLimitController {
     @SentinelResource(value = "byResource", fallback = "handleException")
     public CommonResult byResource() throws Exception {
         Thread.sleep(5000);
-        return new CommonResult("按资源名称限流", 200);
+        return new CommonResult("按资源名称降级", 200);
     }
 
     public CommonResult handleException() {

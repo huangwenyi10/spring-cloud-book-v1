@@ -4,3 +4,15 @@ spring:
   application:
     name: spring-cloud-stream-output
 
+management:
+  health:
+    binders:
+      enabled: true
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        ##include: "*"
+        include: "bindings"

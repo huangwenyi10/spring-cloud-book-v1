@@ -1,0 +1,6 @@
+
+server:
+  port: 18099
+spring:
+  application:
+    name: spring-for-kafka-stream

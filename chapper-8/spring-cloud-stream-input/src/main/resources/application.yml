@@ -3,4 +3,3 @@ server:
 spring:
   application:
     name: spring-cloud-stream-input
-
